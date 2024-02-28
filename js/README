@@ -1,0 +1,28 @@
+Tihis section contain the logic that allowe you to intaract with smart contract with secret.js.
+First you have to be in node directory and run npm install to install all the necessary dependency.
+Create .env file and copy all file in the .env.example into .env file and provide youe mnemonic.
+
+The deploy.js file is for deploying the contract,
+
+submit_invoice.js for submiting an invoce, by default the payer is also the invoice creator. you can change it
+
+accept_invoice.js for the payer to accept the contract but you have to provide invoice id.
+
+cancel_payment.js  for the payer to concel contract payment of particular id,
+
+withdraw_payment.js for the invoice creator of particular id to withdraw payment.
+
+num_invoice.js give the total number of invoice a particular account has created either accepted or not;
+
+num_contract.js give the total number of contract a particlar account that is the payer has either accepted the invoice or not
+
+view_one_invoice.js give informatiom about particular invoice for particular address
+
+view_one_contract.js give information about particular contract for particular addrees
+
+page_invoice.js give paginated informatiom about particular invoice for particular address you change the starting page and total number of page
+
+page_contract.js give paginated informatiom about particular contract for particular address you change the starting page and total number of page
+
+
+NOTE: contract if for the payer of partcular invoice after creation and a particular Address can be invoice craator and invoice payer for deference invoice.

@@ -1,6 +1,7 @@
-# Albash: privacy-preserving decentralized payroll 
+# Albash: privacy-preserving decentralized payroll
 
 ## Overview
+
 - Payee provides a payment invoice to a client✅
 - Payer can accept or reject an invoice from a contractor✅
 - Payee can deposit on-chain assets for payment of invoices after a stipulated period✅
@@ -56,6 +57,7 @@ Input Parameters:
 None
 
 ###
+
 - `SubmitInvoice`
 Description: Allows users to submit an invoice.
 
@@ -71,6 +73,7 @@ recurrent_time: Optional. Days between recurrent payments.
 token: Token used for payment.
 
 ###
+
 `AcceptInvoice`
 Description: Allows payer to accept an invoice.
 
@@ -79,6 +82,7 @@ Input Parameters:
 id: ID of the invoice to accept.
 
 ###
+
 `CancelPayment`
 Description: Allows payer to cancel a payment.
 
@@ -87,6 +91,7 @@ Input Parameters:
 id: ID of the payment to cancel.
 
 ###
+
 `WithdrawPayment`
 Description: Allows users to withdraw a payment.
 
@@ -95,6 +100,7 @@ Input Parameters:
 id: ID of the payment to withdraw.
 
 ###
+
 `AdminUpdateAmin`
 Description: Allows admin to update the admin address.
 
@@ -103,6 +109,7 @@ Input Parameters:
 newAdmin: New admin wallet address.
 
 ###
+
 `SingleInvoice`
 Description: Retrieves information about a single invoice.
 
@@ -112,6 +119,7 @@ id: ID of the invoice to retrieve.
 owner: Wallet address of the invoice payee.
 
 ###
+
 `NumberOfInvoice`
 Description: Retrieves the number of invoices for a specific owner.
 
@@ -120,6 +128,7 @@ Input Parameters:
 owner: Wallet address of the invoice owner.
 
 ###
+
 `PaginatedInvoice`
 Description: Retrieves a paginated list of invoices for a specific owner.
 
@@ -130,6 +139,7 @@ page: Page number.
 page_size: Size of each page.
 
 ###
+
 `SingleContract`
 Description: Retrieves information about a single invoice.
 
@@ -139,6 +149,7 @@ id: ID of the contract to retrieve.
 payer: Wallet address of the invoice payer.
 
 ###
+
 `NumberOfContract`
 Description: Retrieves the number of contracts for a specific payer.
 
@@ -147,6 +158,7 @@ Input Parameters:
 payer: Wallet address of the invoice payer.
 
 ###
+
 `PaginatedContract`
 Description: Retrieves a paginated list of contracts for a specific payer.
 
@@ -156,3 +168,8 @@ payer: Wallet address of the invoice payer.
 page: Page number.
 page_size: Size of each page.
 
+## Contributors
+
+- [Kombi](https://github.com/cenwadike)
+
+- [Akin](https://github.com/come-senusi-wale)
